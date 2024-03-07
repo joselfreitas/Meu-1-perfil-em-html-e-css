@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-family: "monserrat", sans-serif;
+  background-color: aliceblue;
+}
+.textos-pagina {
+  margin-left: 2%;
+}
+/*
+para limitar a largura da pagina
+*/
+
+nav ul {
+  list-style-type: none; /* Retira os pontos da lista */
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Centraliza o conteúdo dos itens da lista */
+  background-color: #4a647d;
+  height: 40px;
+  display: flex;
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  align-items: center; /* Centraliza os itens verticalmente */
+}
+
+nav ul li {
+  display: inline; /* Faz com que os itens da lista fiquem na mesma linha */
+  margin: 2%; /* Espaçamento entre os itens da lista */
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove o sublinhado dos links */
+  color: white;
+}
+
+nav ul li a:hover {
+  color: #6c7b8b; /* Cor dos links quando o mouse passa sobre eles */
+}
+
+.foto-perfil {
+  width: 155px;
+  border-radius: 100px;
+  margin: 1%;
+  border: 5px solid #4a647d;
+}
+h1 {
+  background-color: bisque;
+  margin: 0.2%;
+  padding: 0.2%;
+  max-width: 300px;
+}
+.paragrafos {
+  font-weight: normal;
+  margin: 0.2%;
+  padding: 0.2%;
+}
+.paragrafos ul {
+  list-style-type: none;
+}
+
+h3 {
+  padding: 0.2%;
+}
+p {
+  padding: 0.2%;
+}
+
+.menu #menu-formação,
+#menu-calculadora,
+#menu-relogio,
+#menu-contato {
+  background-color: #4a647d;
+  max-width: 150px;
+  margin: 0.5%;
+}
+
+.social-media {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-media li {
+  display: inline-block;
+}
+
+.social-media li a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.social-media li img {
+  vertical-align: middle;
+  margin: 5px;
+  width: 30px;
+}
+
+strong {
+  font-weight: normal;
+}
